@@ -1,0 +1,298 @@
+{
+  "LunchMenu": {
+    "DayOfWeek": "Wednesday",
+    "Date": "2.9.",
+    "SetMenus": [
+      {
+        "Name": "1. Lunch buffet",
+        "Price": null,
+        "Meals": [
+          {
+            "Name": "Turkey and vegetables in coconut sauce",
+            "RecipeId": 1101,
+            "Diets": [
+              "L",
+              "G",
+              "M",
+              "*",
+              "VS",
+              "A"
+            ]
+          },
+          {
+            "Name": "Baltic herring patties",
+            "RecipeId": 77,
+            "Diets": [
+              "VL",
+              "A"
+            ]
+          },
+          {
+            "Name": "Noodles",
+            "RecipeId": 271,
+            "Diets": [
+              "L",
+              "M",
+              "A"
+            ]
+          },
+          {
+            "Name": "Mashed potatoes",
+            "RecipeId": 63,
+            "Diets": [
+              "L",
+              "G",
+              "*",
+              "A"
+            ]
+          },
+          {
+            "Name": "Spinach mayonnaise",
+            "RecipeId": 1800,
+            "Diets": [
+              "L",
+              "G",
+              "M",
+              "A"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "2. Just for you, lunch",
+        "Price": null,
+        "Meals": [
+          {
+            "Name": "Chicken fillet filled with cheese and spinach",
+            "RecipeId": 1291,
+            "Diets": [
+              "G",
+              "VL",
+              "A"
+            ]
+          },
+          {
+            "Name": "Potato curry",
+            "RecipeId": 69,
+            "Diets": [
+              "L",
+              "G",
+              "M",
+              "Veg"
+            ]
+          },
+          {
+            "Name": "Yoghurt and pineapple sauce",
+            "RecipeId": 1776,
+            "Diets": [
+              "L",
+              "G",
+              "*",
+              "A"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "3. Pizza buffet",
+        "Price": null,
+        "Meals": [
+          {
+            "Name": "Chicken pan pizza seasoned with barbeque sauce",
+            "RecipeId": 12760,
+            "Diets": [
+              "VL",
+              "VS",
+              "A"
+            ]
+          },
+          {
+            "Name": "Ham and pineapple pan pizza",
+            "RecipeId": 12853,
+            "Diets": [
+              "L",
+              "VS",
+              "A"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "4. Just for you, vegetable",
+        "Price": null,
+        "Meals": [
+          {
+            "Name": "Pea crêpes",
+            "RecipeId": 8426,
+            "Diets": [
+              "A"
+            ]
+          },
+          {
+            "Name": "Cottage cheese and herb filling for crêpes",
+            "RecipeId": 3454,
+            "Diets": [
+              "L",
+              "G",
+              "A"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "5. Deli salad",
+        "Price": null,
+        "Meals": [
+          {
+            "Name": "Shrimp and vegetable salad with herb and sour cream dressing",
+            "RecipeId": 1498,
+            "Diets": [
+              "L",
+              "G",
+              "*",
+              "A"
+            ]
+          },
+          {
+            "Name": "Three onion soup with croutons",
+            "RecipeId": 476,
+            "Diets": [
+              "L",
+              "*",
+              "A"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Dessert",
+        "Price": null,
+        "Meals": [
+          {
+            "Name": "Yoghurt and orange smoothie",
+            "RecipeId": 895,
+            "Diets": [
+              "L",
+              "A"
+            ]
+          }
+        ]
+      }
+    ],
+    "Html": ""
+  },
+  "RequireDietFilters": [
+    {
+      "Name": "GlutenFree",
+      "TranslatedName": "Gluten free",
+      "Diet": "G",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "LactoseFree",
+      "TranslatedName": "Lactose free",
+      "Diet": "L",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": [
+        "M"
+      ]
+    },
+    {
+      "Name": "LowLactose",
+      "TranslatedName": "Low lactose",
+      "Diet": "VL",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": [
+        "L",
+        "M"
+      ]
+    },
+    {
+      "Name": "NoMilk",
+      "TranslatedName": "Milk-free",
+      "Diet": "M",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Healthy",
+      "TranslatedName": "Wellbeing",
+      "Diet": "*",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Vegetarian",
+      "TranslatedName": "Suitable for vegans",
+      "Diet": "Veg",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "ExcludeDietFilters": [
+    {
+      "Name": "Garlic",
+      "TranslatedName": "Contains fresh garlic",
+      "Diet": "VS",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Allergens",
+      "TranslatedName": "Contains allergens",
+      "Diet": "A",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Fish",
+      "TranslatedName": "Contains fish",
+      "Diet": "Kal",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Beef",
+      "TranslatedName": "Contains beef",
+      "Diet": "Nau",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Pork",
+      "TranslatedName": "Contains pork",
+      "Diet": "Sia",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Celery",
+      "TranslatedName": "Contains sellery",
+      "Diet": "Sel",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Nuts",
+      "TranslatedName": "Contains nuts / almond",
+      "Diet": "Päh",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "RestaurantDietFilters": []
+}
