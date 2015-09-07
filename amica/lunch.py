@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from __future__ import print_function, unicode_literals, absolute_import
 from datetime import datetime
 import sys
